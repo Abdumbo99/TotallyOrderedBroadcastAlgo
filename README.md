@@ -6,5 +6,5 @@ When each process receives a message from its queue it takes the Logical Clock v
 I used a timer at the beginning to be sure all processes start at the same time, and I used global variable for the command line arguments to make them more accessible, once all processes return the program is terminated.
 Processes were chosen since the algorithm uses a FIFO container like a queue and queues work better with processes.
 
-## For refernce 
+## For reference 
 Check [Wikipedia's article](https://en.wikipedia.org/wiki/Atomic_broadcast)
